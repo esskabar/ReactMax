@@ -25,6 +25,9 @@ Installing and beginning development
 6. Install bootstrap 4.0.0
 npm install --save bootstrap@4.0.0
 npm install --save reactstrap@next react@^16.0.0 react-dom@^16.0.0
+7. Upload Better REST API Featured Images plugin 
+8. Upload for feature development ACF to REST API plugin
+9. Upload Advanced Custom Fields plugin 
 
 
 Now you can continue developing the React Max theme. All the best!

@@ -16,6 +16,12 @@ img#loader {
   text-align: center;
   margin-top: 10em; }
 
+.posts-title, .navbar {
+  padding-left: 1rem; }
+
+.navbar {
+  border-bottom: 1px solid #eaeaea; }
+
 .aseel-front-page.has-header-image .custom-header-media,
 .aseel-front-page.has-header-video .custom-header-media,
 .home.blog.has-header-image .custom-header-media,
@@ -77,12 +83,6 @@ body, div#page-inner {
 
 div#content {
   flex-grow: 1; }
-
-.posts-title, .navbar {
-  padding-left: 1rem; }
-
-.navbar {
-  border-bottom: 1px solid #eaeaea; }
 
 .site-content-contain {
   background-color: transparent !important;

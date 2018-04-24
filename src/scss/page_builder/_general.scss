@@ -55,6 +55,7 @@
 
 .card-body div {
   float: left;
+  //background: #000;
 }
 
 img.product-image, img.featured-image {
@@ -74,16 +75,6 @@ body, div#page-inner {  /* Will not work on IE if body is ommitted */
 
 div#content {
   flex-grow: 1;
-}
-.card-body{
-  //background: #000;
-}
-.posts-title, .navbar {
-  padding-left: 1rem;
-}
-
-.navbar {
-  border-bottom: 1px solid #eaeaea;
 }
 
 .site-content-contain {
