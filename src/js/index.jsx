@@ -6,6 +6,8 @@ var jQuery = require('jquery');
 // Load the Sass file
 require('../scss/style.scss');
 import 'bootstrap/dist/css/bootstrap.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 // Include Custom Script
 require('./custom/main.js');
 
@@ -16,6 +18,7 @@ import Post from './post';
 import Products from './products';
 import Product from './product';
 import NotFound from './not-found';
+
 import LoadingIcon from './loading-icon.gif';
 import Placeholder from './placeholder.jpg';
 

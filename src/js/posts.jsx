@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import PostList from './post-list';
 import LoadingIcon from './loading-icon.gif';
 import Placeholder from './placeholder.jpg';
+import Slider from "react-slick";
+
 
 class Posts extends React.Component {
 
@@ -101,6 +103,13 @@ class Posts extends React.Component {
         if (this.state.posts.length == 0) {
             return null;
         }
+        var settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
         return (
             <div>
                 <div className="container">
@@ -109,6 +118,7 @@ class Posts extends React.Component {
                 </div>
                 <img src={LoadingIcon} alt="loader gif" id="loader" />
             </div>
+
         );
     }
 }

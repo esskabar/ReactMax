@@ -96,5 +96,9 @@ div#content {
 @media screen and (min-width: 48em) {
   .site-content {
     padding: 2.5em 0 0; } }
+.slick-slide {
+  text-align: center;
+  background: #eb9cf8;
+  padding: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
